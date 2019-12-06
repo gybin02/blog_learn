@@ -105,3 +105,9 @@ Android-Iconics ：https://github.com/mikepenz/Android-Iconics
 
 自带项目推荐使用上面的矢量图， 可以极大减少包的大小
 
+
+### 代码设置颜色值
+//颜色值修改为白色
+        leftButton.setBackgroundTintList(ColorStateList.valueOf(Color.WHITE));
+      //        getResources().getColorStateList(android.R.color.white));
+  
