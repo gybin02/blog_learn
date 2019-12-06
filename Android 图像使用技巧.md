@@ -32,6 +32,9 @@ Fontello
 
 
 ## 需要熟练使用 组合图片， Select， Laylist, Shape
+创建方法：New –>  Android drawable resource file
+
+
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
@@ -72,7 +75,6 @@ Fontello
         android:color="@color/sys_light_grey"
         android:radius="@dimen/actionbar_button_ripple_radius">
     <item android:drawable="@color/actionbar_bg"/>
-    <item android:drawable="@drawable/action_bar_icon_back"/>
 </ripple>
 ```
 Shape图像
